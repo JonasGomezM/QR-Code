@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+
 :root{
-    --color_primary: blue;
+    --color_primary: #d5e1ef;
 }
 
 
@@ -12,4 +13,35 @@
 
 body{
     background-color: var(--color_primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card{
+    background-color: white;
+    padding: 15px;
+    max-width: 300px;
+    height: 70vh;
+    border-radius: 15px;
+    margin: 0px 20px;
+    text-align: center;
+    box-shadow: 6px 14px 10px -8px rgba(0,0,0,0.18);
+}
+
+.card img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card h2{
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.card p{
+    font-size: 0.9em;
 }
